@@ -1,0 +1,10 @@
+/home/sourav/data/image_store/0.jpg;0
+/home/sourav/data/image_store/1.jpg;0
+/home/sourav/data/image_store/2.jpg;0
+/home/sourav/data/image_store/3.jpg;0
+/home/sourav/data/image_store/4.jpg;0
+/home/sourav/data/image_store/5.jpg;0
+/home/sourav/data/image_store/6.jpg;1
+/home/sourav/data/image_store/7.jpg;1
+/home/sourav/data/image_store/8.jpg;1
+
