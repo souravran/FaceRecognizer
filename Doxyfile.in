@@ -1,0 +1,44 @@
+# Doxyfile 1.5.8
+
+# This file describes the settings to be used by the documentation system
+# doxygen (www.doxygen.org) for a project
+#
+# All text after a hash (#) is considered a comment and will be ignored
+# The format is:
+#       TAG = value [value, ...]
+# For lists items can also be appended using:
+#       TAG += value [value, ...]
+# Values that contain spaces should be placed between quotes (" ")
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "FaceRecognizer"
+PROJECT_BRIEF          = "This module process the log data and generates XML file for after computing local information" 
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@/doxygen
+INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          = *.c *.cpp *.h *.hpp *.txt *.md *.markdown *.dox
+RECURSIVE              = YES
+FILTER_SOURCE_FILES    = NO
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = German
+BRIEF_MEMBER_DESC      = YES
+TAB_SIZE               = 4
+EXTENSION_MAPPING      = dox=md
+BUILTIN_STL_SUPPORT    = YES
+MULTILINE_CPP_IS_BRIEF = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+SHOW_DIRECTORIES       = YES
+SOURCE_BROWSER         = YES
+HTML_DYNAMIC_SECTIONS  = YES
+USE_MATHJAX            = YES
+PAPER_TYPE             = letter
+HIDE_UNDOC_RELATIONS   = NO
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
