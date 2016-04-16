@@ -17,11 +17,9 @@
 namespace facerecognition {
 using namespace cv;
 
-VideoProcessor::VideoProcessor() {
-}
+VideoProcessor::VideoProcessor() {}
 
-VideoProcessor::~VideoProcessor() {
-}
+VideoProcessor::~VideoProcessor() {}
 
 bool VideoProcessor::SuccessVideoCapture() {
     VideoCapture startVideoCap(0);

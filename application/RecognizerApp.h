@@ -30,7 +30,6 @@ public:
 private:
     ISystemTrainer::Ptr mFisherFaceTrainer;
 };
-
 } /* namespace facerecognition */
 
 #endif /* __APPLICATION_RECOGNIZERAPP_H_ */

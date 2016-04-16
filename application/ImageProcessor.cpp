@@ -18,11 +18,9 @@
 namespace facerecognition {
 using namespace cv;
 
-ImageProcessor::ImageProcessor() {
-}
+ImageProcessor::ImageProcessor() {}
 
-ImageProcessor::~ImageProcessor() {
-}
+ImageProcessor::~ImageProcessor() {}
 
 bool ImageProcessor::SuccessImageSmoothing() {
     Mat inputImage, outputImage;

@@ -37,7 +37,6 @@ public:
 protected:
  explicit FisherFaceTrainer();
 };
-
 } /* namespace facerecognition */
 
 #endif /* __APPLICATION_FISHERFACETRAINER_H_ */

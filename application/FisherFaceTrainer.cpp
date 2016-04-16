@@ -20,14 +20,11 @@ FisherFaceTrainer::Ptr FisherFaceTrainer::Create() {
     return retVal;
 }
 
-FisherFaceTrainer::FisherFaceTrainer() {
-}
+FisherFaceTrainer::FisherFaceTrainer() {}
 
-FisherFaceTrainer::~FisherFaceTrainer() {
-}
+FisherFaceTrainer::~FisherFaceTrainer() {}
 
 void FisherFaceTrainer::RunTrainer() {
-
     // the vectors for holding the list of training images and corresponding labels
     std::vector<Mat> imagesList;
     std::vector<int> labelsList;

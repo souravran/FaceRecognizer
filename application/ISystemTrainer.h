@@ -41,4 +41,5 @@ public:
     virtual int FaceRecognition() = 0;
 };
 } /* namespace facerecognition */
+
 #endif /* __APPLICATION_ISYSTEMTRAINER_H_ */

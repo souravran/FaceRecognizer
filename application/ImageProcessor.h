@@ -28,7 +28,6 @@ public:
     bool SuccessImageSmoothing();
     int SuccessEdgeDetection();
 };
-
 } /* namespace facerecognition */
 
 #endif /* __APPLICATION_IMAGEPROCESSOR_H_ */

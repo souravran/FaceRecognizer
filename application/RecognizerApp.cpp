@@ -23,8 +23,7 @@ RecognizerApp::RecognizerApp()
 : mFisherFaceTrainer() {
 }
 
-RecognizerApp::~RecognizerApp() {
-}
+RecognizerApp::~RecognizerApp() {}
 
 void RecognizerApp::Run() {
 
@@ -48,9 +47,8 @@ void RecognizerApp::Run() {
 // main
 //-------------------------------------------------------------------------------------------------
 int main(int argc, char* argv[]) {
-
+    // create the object and run the app
     facerecognition::RecognizerApp  app;
     app.Run();
     return 0;
 }
-

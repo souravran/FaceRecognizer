@@ -32,7 +32,6 @@ public:
     // method used for detecting the input faces and to display meta data like, frames and number of faces
     int FaceDetection(std::string& pClassifierPath);
 };
-
 } /* namespace facerecognition */
 
 #endif /* __APPLICATION_VIDEOPROCESSOR_H_ */
