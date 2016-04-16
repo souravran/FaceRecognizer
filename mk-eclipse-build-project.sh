@@ -13,7 +13,6 @@ usage() {
     echo
 }
 
-
 if [ "x${SRC_DIR}" = "x" ]
 then
     usage

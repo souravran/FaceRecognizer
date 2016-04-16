@@ -7,4 +7,5 @@
 /home/sourav/data/image_store/6.jpg;1
 /home/sourav/data/image_store/7.jpg;1
 /home/sourav/data/image_store/8.jpg;1
-
+/home/sourav/data/image_store/9.jpg;1
+/home/sourav/data/image_store/10.jpg;1

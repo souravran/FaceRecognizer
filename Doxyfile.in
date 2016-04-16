@@ -15,7 +15,7 @@
 #---------------------------------------------------------------------------
 
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "FaceRecognizer"
+PROJECT_NAME           = " FaceRecognizer "
 PROJECT_BRIEF          = "This module process the log data and generates XML file for after computing local information" 
 OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@/doxygen
 INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@

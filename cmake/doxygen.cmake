@@ -5,6 +5,6 @@ if(DOXYGEN_FOUND)
     doc
     ${DOXYGEN_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile
     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-    COMMENT "Generating API documentation with Doxygen" VERBATIM
+    COMMENT "Generating Application documentation with Doxygen" VERBATIM
   )
 endif()

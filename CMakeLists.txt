@@ -21,4 +21,5 @@ if(NOT EXISTS "${CMAKE_BINARY_DIR}/data/image_store.txt")
      configure_file(${CMAKE_SOURCE_DIR}/data/image_store.txt ${CMAKE_BINARY_DIR}/data/image_store.txt)
 endif()
 
+
 add_subdirectory(application)

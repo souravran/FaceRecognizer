@@ -1,4 +1,4 @@
-message("Configuring '${CMAKE_PROJECT_NAME}' on host '${CMAKE_HOST_SYSTEM_NAME}'")
+message("Configuring '${CMAKE_PROJECT_NAME}' on host system '${CMAKE_HOST_SYSTEM_NAME}'")
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
